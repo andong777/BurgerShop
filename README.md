@@ -9,8 +9,8 @@ Course project of "Object Oriented Analysis & Design"(04812010) @ Peking Univers
 
 ## Documentation
 
-- [prototype design](static/麦得劳汉堡套餐系统开发文档-v2.0.pdf)
-- [development documentation](static/原型设计.pdf)
+- [prototype design](static/原型设计.pdf)
+- [development documentation](static/麦得劳汉堡套餐系统开发文档-v2.0.pdf)
 - [user manual](static/使用说明.pdf)
 
 ## Screenshots
