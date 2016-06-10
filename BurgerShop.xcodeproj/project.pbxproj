@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DEE8F637B2FAADBBB128DDF /* Pods_BurgerShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D31238E0B019D5D58A40100 /* Pods_BurgerShop.framework */; };
+		762F5BDE1CD8B56F0013832E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5BDD1CD8B56F0013832E /* Food.swift */; };
+		762F5BEC1CD8D5F80013832E /* Hamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5BEB1CD8D5F80013832E /* Hamburger.swift */; };
+		762F5BEE1CD8D9BF0013832E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5BED1CD8D9BF0013832E /* Order.swift */; };
+		765BAE311CDA39870048E655 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BAE301CDA39870048E655 /* OrderViewController.swift */; };
+		765BAE371CDA5BAC0048E655 /* OrderVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BAE361CDA5BAC0048E655 /* OrderVCHelper.swift */; };
+		765EF2701CF1995C00BC17C0 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF26F1CF1995C00BC17C0 /* Structure.swift */; };
+		765EF2721CF19FA500BC17C0 /* OrderViewControllerBread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF2711CF19FA500BC17C0 /* OrderViewControllerBread.swift */; };
+		765EF2781CF1B18200BC17C0 /* FoodItemCellBread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF2771CF1B18200BC17C0 /* FoodItemCellBread.swift */; };
+		765EF27A1CF5CFB500BC17C0 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF2791CF5CFB400BC17C0 /* FoodListViewController.swift */; };
+		765EF27C1CF5CFF800BC17C0 /* FoodNutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF27B1CF5CFF800BC17C0 /* FoodNutritionViewController.swift */; };
+		765EF27E1CF6111600BC17C0 /* FoodPropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF27D1CF6111600BC17C0 /* FoodPropertyCell.swift */; };
+		765EF2801CF6112D00BC17C0 /* FoodNutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EF27F1CF6112D00BC17C0 /* FoodNutritionCell.swift */; };
 		766834901CD846F1003FE668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7668348F1CD846F1003FE668 /* AppDelegate.swift */; };
-		766834921CD846F1003FE668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766834911CD846F1003FE668 /* ViewController.swift */; };
+		766834921CD846F1003FE668 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766834911CD846F1003FE668 /* MenuViewController.swift */; };
 		766834951CD846F1003FE668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766834931CD846F1003FE668 /* Main.storyboard */; };
 		766834971CD846F1003FE668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766834961CD846F1003FE668 /* Assets.xcassets */; };
 		7668349A1CD846F1003FE668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766834981CD846F1003FE668 /* LaunchScreen.storyboard */; };
 		766834A51CD846F1003FE668 /* BurgerShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766834A41CD846F1003FE668 /* BurgerShopTests.swift */; };
 		766834B01CD846F1003FE668 /* BurgerShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766834AF1CD846F1003FE668 /* BurgerShopUITests.swift */; };
+		76802A921CE3107E00059D75 /* UIImageView+ImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76802A911CE3107E00059D75 /* UIImageView+ImageFromUrl.swift */; };
+		7694A9271CE3734700196432 /* OrderResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694A9261CE3734700196432 /* OrderResultViewController.swift */; };
+		769C32641CE8D11A0098A550 /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769C32631CE8D11A0098A550 /* RecommendedViewController.swift */; };
+		76AD38661CDB36570077DCCB /* FoodItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD38651CDB36570077DCCB /* FoodItemCell.swift */; };
+		76AD38681CDB420B0077DCCB /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD38671CDB420B0077DCCB /* OrderDetailViewController.swift */; };
+		76AD386E1CDB44D00077DCCB /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD386D1CDB44D00077DCCB /* FoodDetailViewController.swift */; };
+		76AD38701CDB45A80077DCCB /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD386F1CDB45A80077DCCB /* OrderListViewController.swift */; };
+		76CA1CB81CE1C7AC007DBF90 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA1CB71CE1C7AC007DBF90 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D31238E0B019D5D58A40100 /* Pods_BurgerShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurgerShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF20A3824D7010B8421BC20 /* Pods-BurgerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerShop/Pods-BurgerShop.debug.xcconfig"; sourceTree = "<group>"; };
+		5429D16BA333124B19F7C7C7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762F5BDD1CD8B56F0013832E /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Food.swift; path = Hamburger/Food.swift; sourceTree = "<group>"; };
+		762F5BEB1CD8D5F80013832E /* Hamburger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hamburger.swift; path = Hamburger/Hamburger.swift; sourceTree = "<group>"; };
+		762F5BED1CD8D9BF0013832E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Hamburger/Order.swift; sourceTree = "<group>"; };
+		765BAE301CDA39870048E655 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderViewController.swift; path = ViewControllers/OrderViewController.swift; sourceTree = "<group>"; };
+		765BAE361CDA5BAC0048E655 /* OrderVCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderVCHelper.swift; path = Helpers/OrderVCHelper.swift; sourceTree = "<group>"; };
+		765EF26F1CF1995C00BC17C0 /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Structure.swift; path = Hamburger/Structure.swift; sourceTree = "<group>"; };
+		765EF2711CF19FA500BC17C0 /* OrderViewControllerBread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderViewControllerBread.swift; path = ViewControllers/OrderViewControllerBread.swift; sourceTree = "<group>"; };
+		765EF2771CF1B18200BC17C0 /* FoodItemCellBread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodItemCellBread.swift; path = CustomUI/FoodItemCellBread.swift; sourceTree = "<group>"; };
+		765EF2791CF5CFB400BC17C0 /* FoodListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodListViewController.swift; path = ViewControllers/FoodListViewController.swift; sourceTree = "<group>"; };
+		765EF27B1CF5CFF800BC17C0 /* FoodNutritionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodNutritionViewController.swift; path = ViewControllers/FoodNutritionViewController.swift; sourceTree = "<group>"; };
+		765EF27D1CF6111600BC17C0 /* FoodPropertyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodPropertyCell.swift; path = CustomUI/FoodPropertyCell.swift; sourceTree = "<group>"; };
+		765EF27F1CF6112D00BC17C0 /* FoodNutritionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodNutritionCell.swift; path = CustomUI/FoodNutritionCell.swift; sourceTree = "<group>"; };
 		7668348C1CD846F1003FE668 /* BurgerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7668348F1CD846F1003FE668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		766834911CD846F1003FE668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		766834911CD846F1003FE668 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		766834941CD846F1003FE668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766834961CD846F1003FE668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766834991CD846F1003FE668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +83,15 @@
 		766834AB1CD846F1003FE668 /* BurgerShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766834AF1CD846F1003FE668 /* BurgerShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShopUITests.swift; sourceTree = "<group>"; };
 		766834B11CD846F1003FE668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76802A911CE3107E00059D75 /* UIImageView+ImageFromUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageFromUrl.swift"; path = "Helpers/UIImageView+ImageFromUrl.swift"; sourceTree = "<group>"; };
+		7694A9261CE3734700196432 /* OrderResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderResultViewController.swift; path = ViewControllers/OrderResultViewController.swift; sourceTree = "<group>"; };
+		769C32631CE8D11A0098A550 /* RecommendedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendedViewController.swift; path = ViewControllers/RecommendedViewController.swift; sourceTree = "<group>"; };
+		76AD38651CDB36570077DCCB /* FoodItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodItemCell.swift; path = CustomUI/FoodItemCell.swift; sourceTree = "<group>"; };
+		76AD38671CDB420B0077DCCB /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderDetailViewController.swift; path = ViewControllers/OrderDetailViewController.swift; sourceTree = "<group>"; };
+		76AD386D1CDB44D00077DCCB /* FoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodDetailViewController.swift; path = ViewControllers/FoodDetailViewController.swift; sourceTree = "<group>"; };
+		76AD386F1CDB45A80077DCCB /* OrderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderListViewController.swift; path = ViewControllers/OrderListViewController.swift; sourceTree = "<group>"; };
+		76CA1CB71CE1C7AC007DBF90 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkHelper.swift; path = Helpers/NetworkHelper.swift; sourceTree = "<group>"; };
+		CB06B201DB7B487DC7FF536A /* Pods-BurgerShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerShop/Pods-BurgerShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEE8F637B2FAADBBB128DDF /* Pods_BurgerShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +120,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A86988998DD4838712AA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5429D16BA333124B19F7C7C7 /* Pods.framework */,
+				0D31238E0B019D5D58A40100 /* Pods_BurgerShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28DF3F35D295C09FACBD1B5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DF20A3824D7010B8421BC20 /* Pods-BurgerShop.debug.xcconfig */,
+				CB06B201DB7B487DC7FF536A /* Pods-BurgerShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		762F5BD81CD8A7F70013832E /* Hamburger */ = {
+			isa = PBXGroup;
+			children = (
+				762F5BDD1CD8B56F0013832E /* Food.swift */,
+				762F5BEB1CD8D5F80013832E /* Hamburger.swift */,
+				762F5BED1CD8D9BF0013832E /* Order.swift */,
+				765EF26F1CF1995C00BC17C0 /* Structure.swift */,
+			);
+			name = Hamburger;
+			sourceTree = "<group>";
+		};
+		762F5BE91CD8CBA70013832E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				766834911CD846F1003FE668 /* MenuViewController.swift */,
+				765BAE301CDA39870048E655 /* OrderViewController.swift */,
+				76AD38671CDB420B0077DCCB /* OrderDetailViewController.swift */,
+				76AD386D1CDB44D00077DCCB /* FoodDetailViewController.swift */,
+				76AD386F1CDB45A80077DCCB /* OrderListViewController.swift */,
+				7694A9261CE3734700196432 /* OrderResultViewController.swift */,
+				769C32631CE8D11A0098A550 /* RecommendedViewController.swift */,
+				765EF2711CF19FA500BC17C0 /* OrderViewControllerBread.swift */,
+				765EF2791CF5CFB400BC17C0 /* FoodListViewController.swift */,
+				765EF27B1CF5CFF800BC17C0 /* FoodNutritionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		762F5BEA1CD8CBB60013832E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				765BAE361CDA5BAC0048E655 /* OrderVCHelper.swift */,
+				76CA1CB71CE1C7AC007DBF90 /* NetworkHelper.swift */,
+				76802A911CE3107E00059D75 /* UIImageView+ImageFromUrl.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		766834831CD846F1003FE668 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +183,8 @@
 				766834A31CD846F1003FE668 /* BurgerShopTests */,
 				766834AE1CD846F1003FE668 /* BurgerShopUITests */,
 				7668348D1CD846F1003FE668 /* Products */,
+				24A86988998DD4838712AA76 /* Frameworks */,
+				28DF3F35D295C09FACBD1B5F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +201,11 @@
 		7668348E1CD846F1003FE668 /* BurgerShop */ = {
 			isa = PBXGroup;
 			children = (
+				76AD38641CDB35E70077DCCB /* CustomUI */,
+				762F5BEA1CD8CBB60013832E /* Helpers */,
+				762F5BE91CD8CBA70013832E /* ViewControllers */,
+				762F5BD81CD8A7F70013832E /* Hamburger */,
 				7668348F1CD846F1003FE668 /* AppDelegate.swift */,
-				766834911CD846F1003FE668 /* ViewController.swift */,
 				766834931CD846F1003FE668 /* Main.storyboard */,
 				766834961CD846F1003FE668 /* Assets.xcassets */,
 				766834981CD846F1003FE668 /* LaunchScreen.storyboard */,
@@ -125,6 +232,17 @@
 			path = BurgerShopUITests;
 			sourceTree = "<group>";
 		};
+		76AD38641CDB35E70077DCCB /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				76AD38651CDB36570077DCCB /* FoodItemCell.swift */,
+				765EF2771CF1B18200BC17C0 /* FoodItemCellBread.swift */,
+				765EF27D1CF6111600BC17C0 /* FoodPropertyCell.swift */,
+				765EF27F1CF6112D00BC17C0 /* FoodNutritionCell.swift */,
+			);
+			name = CustomUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +250,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766834B41CD846F1003FE668 /* Build configuration list for PBXNativeTarget "BurgerShop" */;
 			buildPhases = (
+				570D90BD43470CDAB1A5DD7C /* 📦 Check Pods Manifest.lock */,
 				766834881CD846F1003FE668 /* Sources */,
 				766834891CD846F1003FE668 /* Frameworks */,
 				7668348A1CD846F1003FE668 /* Resources */,
+				BED8B3EB22BD960492E6C4C1 /* 📦 Embed Pods Frameworks */,
+				A258FC70146F11369EF6367E /* 📦 Copy Pods Resources */,
+				2AC4F4EF72BFD4CEAC9BE299 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +373,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AC4F4EF72BFD4CEAC9BE299 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerShop/Pods-BurgerShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570D90BD43470CDAB1A5DD7C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A258FC70146F11369EF6367E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerShop/Pods-BurgerShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED8B3EB22BD960492E6C4C1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerShop/Pods-BurgerShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		766834881CD846F1003FE668 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766834921CD846F1003FE668 /* ViewController.swift in Sources */,
+				762F5BDE1CD8B56F0013832E /* Food.swift in Sources */,
+				76AD38681CDB420B0077DCCB /* OrderDetailViewController.swift in Sources */,
+				76802A921CE3107E00059D75 /* UIImageView+ImageFromUrl.swift in Sources */,
+				766834921CD846F1003FE668 /* MenuViewController.swift in Sources */,
+				765EF2801CF6112D00BC17C0 /* FoodNutritionCell.swift in Sources */,
+				765EF27E1CF6111600BC17C0 /* FoodPropertyCell.swift in Sources */,
+				762F5BEE1CD8D9BF0013832E /* Order.swift in Sources */,
+				76AD386E1CDB44D00077DCCB /* FoodDetailViewController.swift in Sources */,
+				765EF2721CF19FA500BC17C0 /* OrderViewControllerBread.swift in Sources */,
+				7694A9271CE3734700196432 /* OrderResultViewController.swift in Sources */,
+				765EF2701CF1995C00BC17C0 /* Structure.swift in Sources */,
+				765EF27C1CF5CFF800BC17C0 /* FoodNutritionViewController.swift in Sources */,
+				765BAE371CDA5BAC0048E655 /* OrderVCHelper.swift in Sources */,
+				765EF2781CF1B18200BC17C0 /* FoodItemCellBread.swift in Sources */,
+				76AD38701CDB45A80077DCCB /* OrderListViewController.swift in Sources */,
+				76CA1CB81CE1C7AC007DBF90 /* NetworkHelper.swift in Sources */,
+				769C32641CE8D11A0098A550 /* RecommendedViewController.swift in Sources */,
+				765EF27A1CF5CFB500BC17C0 /* FoodListViewController.swift in Sources */,
 				766834901CD846F1003FE668 /* AppDelegate.swift in Sources */,
+				76AD38661CDB36570077DCCB /* FoodItemCell.swift in Sources */,
+				762F5BEC1CD8D5F80013832E /* Hamburger.swift in Sources */,
+				765BAE311CDA39870048E655 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +604,7 @@
 		};
 		766834B51CD846F1003FE668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF20A3824D7010B8421BC20 /* Pods-BurgerShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BurgerShop/Info.plist;
@@ -410,6 +616,7 @@
 		};
 		766834B61CD846F1003FE668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB06B201DB7B487DC7FF536A /* Pods-BurgerShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BurgerShop/Info.plist;
@@ -484,6 +691,7 @@
 				766834B61CD846F1003FE668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766834B71CD846F1003FE668 /* Build configuration list for PBXNativeTarget "BurgerShopTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +700,7 @@
 				766834B91CD846F1003FE668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766834BA1CD846F1003FE668 /* Build configuration list for PBXNativeTarget "BurgerShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +709,7 @@
 				766834BC1CD846F1003FE668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
